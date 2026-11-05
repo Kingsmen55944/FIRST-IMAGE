@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-COPY . /usr/share/nginx/html
+COPY ./footwear-1.0.0/ /usr/share/nginx/html/
 
 EXPOSE 80
 
